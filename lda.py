@@ -8,6 +8,7 @@ def point_projection(a, b):
 def array_point_projection(group_data, project_vector):
     return np.asarray([point_projection(group_data[i], project_vector) for i in range(len(group_data))])
 
+# Change your own data points here
 group1 = np.array([[4,2],[2,4],[2,3],[3,6],[4,4]])
 group2 = np.array([[9,10],[6,8],[9,5],[8,7],[10,8]])
 
